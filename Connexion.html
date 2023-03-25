@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Connexion - ActuGaming</title>
+	<link rel="stylesheet" href="css/topnavbar.css">
+	<link rel="stylesheet" type="text/css" href="css/connexion.css">
+	<script src="https://kit.fontawesome.com/02f58a5e8a.js" crossorigin="anonymous"></script>
+</head>
+
+<header>
+	<div class="logo">
+		<a href="accueil.html"><img  class="Logoactugaming" src="Images/logo.png" alt="logo"></a>
+	</div>
+	<nav>
+		
+		<ul>
+			<a class="barre" href="#jeux">Jeux du moment</a>
+			<a class="barre" href="#FTP">Jeux</a>
+			<a class="barre" href="#Catégories">Catégories</a>
+			<a class="barre" href="#a-propos">À propos</a>			
+		</ul>
+		<div class="spacer"></div>
+		<ul >
+			<a href="Connexion.html" class="user"><i class="fa-regular fa-user x-large"></i></a>	
+			<a class="search-bar" action="/search" method="get">
+				<input type="text" id="search" name="q" placeholder="Rechercher..." class="searchInput">
+				<button type="submit" class="searchButton"><i class="fa fa-search"></i></button>
+			</a>
+		</ul>
+	</nav>
+</header>
+
+<body>
+	<h1>Connexion</h1>
+	<form>
+		<label for="username">Nom d'utilisateur :</label>
+		<input type="text" id="username" name="username" required><br><br>
+		
+		<label for="password">Mot de passe :</label>
+		<input type="password" id="password" name="password" required ><br><br>
+		
+		<input type="submit" value="Se connecter" class="submitButton">
+	</form>
+</body>
+</html>
